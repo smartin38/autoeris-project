@@ -19,7 +19,7 @@ export function LoginForm() {
                         <div className={styles.contactRow}>
                             <div className={styles.contactGrid}>
                                 <form onSubmit={handleSubmit}>
-                                    <label htmlFor="name">
+                                    <label htmlFor="username">
                                         Username
                                     </label>
                                     <input className={styles.messageInput}
@@ -27,7 +27,7 @@ export function LoginForm() {
                                         type="username"
                                         name="username"
                                     />
-                                    <label htmlFor="email">
+                                    <label htmlFor="password">
                                         Password
                                     </label>
                                     <input className={styles.messageInput}

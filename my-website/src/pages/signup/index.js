@@ -17,7 +17,7 @@ export default function Home() {
             description="Description will go into a meta tag in <head />">
             <header className={clsx('hero hero--primary', styles.heroBanner, 'heroBannerContact')}>
                 <div className="container">
-                    <h1 className="hero__title">Login to AutoEris</h1>
+                    <h1 className="hero__title">Join the Community!</h1>
                     <p className="hero__subtitle"></p>
                 </div>
             </header>
